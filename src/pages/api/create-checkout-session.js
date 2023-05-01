@@ -1,4 +1,4 @@
-import { getStripe } from '../../../getStripe';
+import {checkout} from '../../checkout';
 
 export default async function handler(req, res) {
 	if (req.method === 'POST'){
